@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --dark-color: #334155;
+  --light-color: #f8fafc;
+  --light-color-2: #e4e4e7;
+  --box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  background-color: var(--light-color);
+
+  display: flex;
+  justify-content: center;
+  font-size: 62.5%;
+}
